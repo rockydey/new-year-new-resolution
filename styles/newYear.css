@@ -19,7 +19,7 @@ body {
   max-width: 1320px;
   background-image: url(../assets/images/Banner\ Image.png);
   background-repeat: no-repeat;
-  margin: 25px auto;
+  margin: 25px auto 0px auto;
 }
 .banner {
   text-align: center;
@@ -45,3 +45,31 @@ body {
   line-height: 95px;
   font-family: "Merriweather", serif;
 }
+
+/* Main Section Style */
+#main-style {
+  max-width: 1320px;
+  margin: 120px auto;
+}
+/* Offer Section Style */
+.offer {
+  text-align: center;
+}
+.offer-head1 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.offer-head2 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-head3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+
