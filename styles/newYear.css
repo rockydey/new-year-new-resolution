@@ -1,11 +1,47 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Base Style or Utilities */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html,
 body {
   height: 100%;
   width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Section Style */
+#header-style {
+  max-width: 1320px;
+  background-image: url(../assets/images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  margin: 25px auto;
+}
+.banner {
+  text-align: center;
+  padding: 200px 0px;
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.25) 100%); */
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+}
+.banner-head1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Merriweather", serif;
+}
+.banner-head3 {
+  /* background: linear-gradient(to top, #fe2e17, #f0cb35);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+  color: white;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  font-family: "Merriweather", serif;
 }
