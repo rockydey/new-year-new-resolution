@@ -191,3 +191,52 @@ body {
   line-height: 32px;
   margin: 15px 0px;
 }
+
+/* Footer Style */
+#footer-style {
+  background-color: #070211;
+  padding: 120px 0px;
+}
+.horizontal-line {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.footer-content {
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.contact p,
+.contact-info,
+.copyrights p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.call,
+.website {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social-media {
+  margin: 35px 0px;
+  text-align: center;
+}
+.social-media img {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.copyrights {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.unsubscribe-btn {
+  cursor: pointer;
+}
