@@ -71,5 +71,46 @@ body {
   font-size: 48px;
   font-weight: 700;
 }
-
-
+/* Welcome Party Style */
+.welcome-party {
+  background-image: url(../assets/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  margin: 120px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.welcome-greeting {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  padding: 120px 0px 120px 120px;
+  border-radius: 16px;
+}
+.welcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.welcome-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0px;
+}
+.btn-join {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.welcome-img > img {
+  padding-right: 120px;
+}
