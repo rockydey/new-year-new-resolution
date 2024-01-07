@@ -191,6 +191,60 @@ body {
   line-height: 32px;
   margin: 15px 0px;
 }
+/* Holiday Sales Style */
+.holiday-sales {
+  text-align: center;
+}
+.holiday-sales h3 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sales h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-sales h1 > span {
+  color: #f00;
+  font-family: Merriweather;
+}
+.holiday-sales p {
+  max-width: 900px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 25px;
+  margin: 25px auto 0px auto;
+}
+.exciting-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.magic-box {
+  width: 760px;
+  margin-bottom: -250px;
+  z-index: 3;
+}
+.discount {
+  position: relative;
+  margin-bottom: -7px;
+}
+.lucky-girl {
+  z-index: 1;
+}
+.discount-50 {
+  position: absolute;
+  z-index: 2;
+  top: 18%;
+  left: -35%;
+}
+.rectangle {
+  z-index: 2;
+}
 
 /* Footer Style */
 #footer-style {
