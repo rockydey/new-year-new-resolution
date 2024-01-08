@@ -411,7 +411,8 @@ body {
 
   /* Main Responsive Style */
   #main-style {
-    display: none;
+    width: 100%;
+    margin: 60px 0px;
   }
   /* Offer Section Style */
   .offer {
@@ -419,54 +420,58 @@ body {
   }
   .offer-head1 {
     color: #f00;
-    font-size: 88px;
+    font-size: 44px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .offer-head2 {
     color: #f00;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
   }
   .offer-head3 {
     color: #070211;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 700;
+  }
+  .offer-img {
+    width: 100%;
   }
   /* Welcome Party Style */
   .welcome-party {
-    display: none;
     background-image: url(../assets/images/Vectorrr.png);
     background-repeat: no-repeat;
-    margin: 120px 0px;
+    background-size: cover;
+    background-position: center center;
+    margin: 60px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 16px;
+    border-radius: 10px;
   }
   .welcome-greeting {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-    padding: 140px 0px 140px 120px;
-    border-radius: 16px;
+    padding: 20px 0px 20px 10px;
   }
   .welcome-title {
     color: #fff;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 32px;
     font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
+    line-height: 40px;
+    letter-spacing: 3.5px;
   }
   .welcome-text {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 16px;
     margin: 20px 0px;
   }
   .btn-join {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     background: none;
     border: none;
@@ -475,85 +480,90 @@ body {
     margin-top: 20px;
   }
   .welcome-img > img {
-    padding-right: 120px;
+    width: 160px;
+    padding-right: 0px;
   }
   /* Party Time Style */
   .party-time {
-    display: none;
     background: linear-gradient(
       180deg,
       rgba(255, 0, 0, 0.1) 0%,
       rgba(255, 0, 0, 0) 100%
     );
-    padding: 100px 0px;
-    border-radius: 16px;
+    padding: 20px 0px;
+    border-radius: 10px;
     text-align: center;
   }
   .party-time h3 {
     color: #070211;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 56px;
+    line-height: 36px;
   }
   .party-time h3 > span {
     color: #ff0000;
   }
   .join-now-btn {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    padding: 16px 32px;
+    padding: 12px 24px;
     background-color: #ff0000;
     border: none;
     border-radius: 8px;
-    margin-top: 40px;
+    margin-top: 25px;
     cursor: pointer;
   }
   /* Coming Soon Style */
   .coming-soon {
-    display: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: end;
-    grid-gap: 50px;
-    margin: 120px 0px;
+    grid-gap: 30px;
+    margin: 60px 0px;
   }
   .best-offer {
-    margin: auto 0px;
+    margin: 0px 10px;
   }
   .best-offer h3 {
-    color: #f00;
-    font-size: 24px;
+    color: #ff0000;
+    font-size: 18px;
     font-weight: 500;
   }
   .best-offer h2 {
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 900;
     margin: 10px 0px;
   }
   .best-offer p {
     color: rgba(7, 2, 17, 0.6);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 20px;
   }
   .best-offer-img {
     border: 15px solid #f00;
     border-radius: 50%;
-    padding: 30px;
+    padding: 15px;
+  }
+  .best-offer-img > img {
+    width: 100%;
+  }
+  .new-year {
+    margin: 0px 10px;
   }
   .new-year h3 {
     color: #f00;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
   }
   .new-year p {
     color: rgba(7, 2, 17, 0.6);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 20px;
     margin: 15px 0px;
   }
   /* Holiday Sales Style */
@@ -699,6 +709,58 @@ body {
 
   /* Footer Responsive Style */
   #footer-style {
-    display: none;
+    background-color: #070211;
+    padding: 40px 20px;
+  }
+  .horizontal-line {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  .footer-content {
+    width: 100%;
+    margin: 0px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .contact p,
+  .contact-info,
+  .copyrights p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .call,
+  .website {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .social-media {
+    margin: 25px 0px;
+    text-align: center;
+  }
+  .social-media {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-media > img {
+    margin-right: 0px;
+    cursor: pointer;
+  }
+  .copyrights {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .unsubscribe-btn {
+    cursor: pointer;
   }
 }
