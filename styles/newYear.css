@@ -245,6 +245,41 @@ body {
 .rectangle {
   z-index: 2;
 }
+/* Portfolio Style */
+.portfolio {
+  margin: 120px 0px;
+}
+.portfolio-head1 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-head2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 15px 0px;
+}
+.portfolio-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 35px;
+}
+.portfolio-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.portfolio-img > img {
+  transition: all 1s ease-in;
+}
+.portfolio-img > img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 
 /* Footer Style */
 #footer-style {
